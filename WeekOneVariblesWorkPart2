@@ -1,0 +1,52 @@
+
+public class WeekOneVariblesWork {
+
+	public static void main(String[] args) {
+		// create a variable for number of plane seats available
+		int availablePlaneSeats = 6;
+		// create a variable for cost of groceries
+		double costOfGroceries = 23.64;
+		// create a variable for customers middle initial	
+		char middleInitial = 'A';
+		// create a variable for the temperature
+		
+		boolean itsHotOutside = false;
+		// create a variable for customers first name
+		
+		String customerFirstName = "Ashley";
+		// create a variable for c
+		
+		String streetAddress = "1234 S Happy Ln";
+ 
+		
+		
+		System.out.println(availablePlaneSeats);
+		System.out.println(costOfGroceries);
+		System.out.println(middleInitial);
+		System.out.println(itsHotOutside);
+		System.out.println(customerFirstName);
+		System.out.println(streetAddress);
+		
+		//a customer booked 2 Plane Seats, remove 2 seats from the available seats variable
+		availablePlaneSeats = availablePlaneSeats - 2;
+		availablePlaneSeats -= 2;
+		System.out.println(availablePlaneSeats);
+		//impulse bag of candy purchase, add 3.50 to grocery total
+		//costOfGroceries = costOfGroceries + 3.50;
+		costOfGroceries += 3.50;
+		System.out.println(costOfGroceries);
+		//birth certificate was printed incorrectly, change the middle initial to something else
+		middleInitial = 'J';
+		System.out.println(middleInitial);
+		//the season has changed, update  the hot outside variable to be opposite of what it was
+		//itsHotOutside = true;
+		itsHotOutside =! itsHotOutside;
+		System.out.println(itsHotOutside);
+		//create a new variable called full name using the customer's  first name, middle initial, and a last name of your choice
+		String customersFullName = customerFirstName + " " +  middleInitial + " Manygoats";
+		System.out.println (customersFullName);
+		//print a line to console that introduces the customer and says they live at the address variable
+		System.out.println ("Hi, my name is " + customersFullName + " and I live at " + streetAddress + " " );
+	}
+
+}
